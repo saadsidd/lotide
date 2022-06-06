@@ -1,14 +1,10 @@
-// FUNCTION IMPLEMENTATION
+// Logs pass or fail to console whether two inputs are equal
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
+    console.log(`✅ Assertion Passed: ${actual} === ${expected}`);
   } else {
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
+    console.log(`🛑 Assertion Failed: ${actual} !== ${expected}`);
   }
 };
 
-// TEST CODE
-assertEqual('Test', 'Test');
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-assertEqual(2, 3);
+module.exports = assertEqual;
