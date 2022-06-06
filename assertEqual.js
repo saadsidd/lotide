@@ -1,4 +1,4 @@
-// Logs pass or fail to console whether two inputs are equal
+// Logs pass or fail to console whether two primative types are equal
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅ Assertion Passed: ${actual} === ${expected}`);
