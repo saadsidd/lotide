@@ -1,4 +1,4 @@
-// Return middle element of array (or two elements as array if length is odd)
+// Return middle element of array (or two elements as array if length is even)
 const middle = function(array) {
   if (array.length <= 2) {
     return [];
