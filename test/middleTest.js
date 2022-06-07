@@ -1,7 +1,6 @@
 const assert = require('chai').assert;
 const middle = require('../middle');
 
-// Test cases for middle.js
 describe('#middle', () => {
   it('should return [] when given [1]', () => {
     const input = [1];

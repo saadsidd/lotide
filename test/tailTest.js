@@ -1,7 +1,6 @@
 const assert = require('chai').assert;
 const tail = require('../tail');
 
-// Test cases for tail.js
 describe('#tail', () => {
   it('should return [2, 3, 4, 5, 6, 7] when given [1, 2, 3, 4, 5, 6, 7]', () => {
     const input = [1, 2, 3, 4, 5, 6, 7];
