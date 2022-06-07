@@ -21,20 +21,20 @@ describe('#middle', () => {
   });
 
   it('should return [3] when given [1, 2, 3, 4, 5]', () => {
-    const input = [1, 2, 3];
-    const output = [2];
+    const input = [1, 2, 3, 4, 5];
+    const output = [3];
     assert.deepEqual(middle(input), output);
   });
 
   it('should return [2, 3] when given [1, 2, 3, 4]', () => {
-    const input = [1, 2, 3];
-    const output = [2];
+    const input = [1, 2, 3, 4];
+    const output = [2, 3];
     assert.deepEqual(middle(input), output);
   });
 
   it('should return [3, 4] when given [1, 2, 3, 4, 5, 6]', () => {
-    const input = [1, 2, 3];
-    const output = [2];
+    const input = [1, 2, 3, 4, 5, 6];
+    const output = [3, 4];
     assert.deepEqual(middle(input), output);
   });
 });
